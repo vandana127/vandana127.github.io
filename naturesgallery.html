@@ -1,0 +1,112 @@
+	<html>
+<head>
+<title>NatureGallery</title>
+<style>
+h1{
+text-align:center;
+top-margin:30px;
+font-size:40px;
+color:white;
+}
+body{
+  background-color:#333;
+
+  background-size: cover;
+  background-position: center;
+}
+
+
+.container{
+width:100%;
+margin-left:100px;
+margin-right:50px;
+display:flex;
+flex-direction:row;
+}
+.first{
+width:400px;
+}
+.second{
+width:500px;
+}
+.third{
+width:400px;
+}
+.first img{
+width:370px;
+height:500px;
+marin-top:30px;
+margin-bottom:30px;
+transition:all 0.5s ease;
+}
+.second img{
+width:470px;
+height:250px;
+marin-top:30px;
+margin-bottom:30px;
+transition:all 0.5s ease;
+}
+.third img{
+width:370px;
+height:500px;
+marin-top:30px;
+margin-bottom:30px;
+transition:all 0.5s ease;
+}
+.first img.zoom{
+transform:scale(1.5);
+}
+.second img.zoom{
+transform:scale(1.5);
+}
+.third img.zoom{
+transform:scale(1.5);
+}
+
+@media(max-width:678px)
+{
+body{
+width:50%;
+background-color:blue;
+}}
+
+
+</style>
+
+</head>
+<body>
+<h1><u>Nature's Gallery</u></h1>
+<div class="container"><div class="first">
+<img    src="C:\Users\user\Downloads\milky.jpeg" alt="https://images.pexels.com/photos/3214944/pexels-photo-3214944.jpeg?auto=compress&cs=tinysrgb&w=300" onclick="enlarge(this)">
+<img  src= "https://images.pexels.com/photos/3571551/pexels-photo-3571551.jpeg?auto=compress&cs=tinysrgb&w=300" onclick="enlarge(this)">
+<img   src= "https://images.pexels.com/photos/2440299/pexels-photo-2440299.jpeg?auto=compress&cs=tinysrgb&w=300" onclick="enlarge(this)">
+<img   src= "https://images.pexels.com/photos/17811/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=300" onclick="enlarge(this)">
+<img  src= "https://images.pexels.com/photos/2295744/pexels-photo-2295744.jpeg?auto=compress&cs=tinysrgb&w=300" onclick="enlarge(this)">
+</div>
+<div class="second">
+<img   src= "https://images.pexels.com/photos/108941/pexels-photo-108941.jpeg?auto=compress&cs=tinysrgb&w=400" onclick="enlarge(this)">
+<img   src= "https://images.pexels.com/photos/15273819/pexels-photo-15273819.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" onclick="enlarge(this)">
+<img   src= "https://images.pexels.com/photos/1073078/pexels-photo-1073078.jpeg?auto=compress&cs=tinysrgb&w=400" onclick="enlarge(this)">
+<img   src= "https://images.pexels.com/photos/1196313/pexels-photo-1196313.jpeg?auto=compress&cs=tinysrgb&w=400" onclick="enlarge(this)">
+<img   src= "https://images.pexels.com/photos/2648125/pexels-photo-2648125.jpeg?auto=compress&cs=tinysrgb&w=400" onclick="enlarge(this)">
+<img  src="https://images.pexels.com/photos/1643403/pexels-photo-1643403.jpeg?auto=compress&cs=tinysrgb&w=400" onclick="enlarge(this)">
+<img  src="https://images.pexels.com/photos/2379653/pexels-photo-2379653.jpeg?auto=compress&cs=tinysrgb&w=400" onclick="enlarge(this)">
+<img  src="https://images.pexels.com/photos/672142/pexels-photo-672142.jpeg?auto=compress&cs=tinysrgb&w=400" onclick="enlarge(this)">
+<img  src="https://images.pexels.com/photos/2832217/pexels-photo-2832217.jpeg?auto=compress&cs=tinysrgb&w=400" onclick="enlarge(this)">
+<img  src="https://images.pexels.com/photos/96654/pexels-photo-96654.jpeg?auto=compress&cs=tinysrgb&w=300" onclick="enlarge(this)"></div>
+<div class="third">
+<img  src= "https://images.pexels.com/photos/53125/elephant-tusk-ivory-animal-53125.jpeg?auto=compress&cs=tinysrgb&w=300" onclick="enlarge(this)">
+<img  src= "https://images.pexels.com/photos/1624076/pexels-photo-1624076.jpeg?auto=compress&cs=tinysrgb&w=300" onclick="enlarge(this)">
+<img  src= "https://images.pexels.com/photos/1353126/pexels-photo-1353126.jpeg?auto=compress&cs=tinysrgb&w=300" onclick="enlarge(this)">
+<img  src= "https://images.pexels.com/photos/1458377/pexels-photo-1458377.jpeg?auto=compress&cs=tinysrgb&w=300" onclick="enlarge(this)">
+<img  src= "https://images.pexels.com/photos/699963/pexels-photo-699963.jpeg?auto=compress&cs=tinysrgb&w=300" onclick="enlarge(this)"></div>
+</div>
+<script>
+function enlarge(img){
+img.classList.toggle("zoom");
+}
+</script>
+function 
+</body>
+</html>
+
